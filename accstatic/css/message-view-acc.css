@@ -1,0 +1,44 @@
+.message-type,
+.message-type__aviso {
+  background: #f2f2f2;
+}
+.message-type {
+  margin: 0 0 20px;
+  border-left: 4px solid #000;
+  padding: 20px 15px 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.message-type--active {
+  display: block;
+}
+.message-type--inactive {
+  display: none;
+}
+.message-type__error {
+  border-left: 4px solid #c4161c !important;
+}
+.message-type__ok {
+  border-left: 4px solid #4ab762 !important;
+}
+.message-type__title-simple {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.message-type__title {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+}
+.message-type__description,
+.message-type__description p {
+  margin: 0;
+  color: #333;
+  font-size: 12px;
+}
+.message-box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
